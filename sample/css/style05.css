@@ -1,33 +1,16 @@
 
-html,body,#contents,.wrapper,#back{
-  background-color: #000000;
-  height: 100%;
-  width: 100%;
-  position: relative;
+body{
+  background-color: #ffffff;
+  /* background-image: url(../images/back.png);
+  background-repeat: repeat;
+  background-size: 20px 20px; */
 }
 
 .wrapper{
-  
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-  width: 32px;
-  height: 32px;
-  margin-top: -16px;
-}
-.swiper-button-prev {
-    background: url(https://haniwaman.com/wp-content/uploads/2018/05/swiper3.png) no-repeat center center / contain;
-}
-.swiper-button-prev::after {
-    content: "";
-}
-
-.swiper-button-next {
-    background: url(https://haniwaman.com/wp-content/uploads/2018/05/swiper4.png) no-repeat center center / contain;
-}
-.swiper-button-next::after {
-    content: "";
+  width: 1000px;
+  background-color: rgb(255, 255, 255);
+  margin: 30px auto;
+  text-align: center;
 }
 
 

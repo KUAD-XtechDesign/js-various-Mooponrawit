@@ -8,18 +8,13 @@ $(function(){
     function introAnime(){//jqueryでフェードアウト、終わったらcontentAnime実行
       $("#intro").fadeOut(1000);
     }
+  
+      $("#slide").slick({dots:true});
     
-    var swiper = new Swiper('.swiper-container', {
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-        loop: true,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: true
-        },
-      });
+      // $(".btn").on("click",()=>{
+      //   $("#slide").slideToggle();
+      // })
+    
     
   
   })
