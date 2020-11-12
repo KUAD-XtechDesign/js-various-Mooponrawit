@@ -6,22 +6,20 @@ $(function(){
     //$("#intro").on("click",introAnime)//クリックしたらintroAnimeを実行
   
     function introAnime(){//jqueryでフェードアウト、終わったらcontentAnime実行
-      $("#intro").fadeOut(1000,contentAnime);
-    }
-  
-    function contentAnime(){
-      setTimeout(backAnime,300);//0.3秒後backAnime実行
+      $("#intro").fadeOut(1000);
     }
     
-    $(".single-item").slick({
-        accessibility: true,
-        autoplay: true,
-        autoplaySpeed: 1000,
-        dots: true,
-        fade: true,
+    var swiper = new Swiper('.swiper-container', {
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: true
+        },
       });
-
-   
     
   
   })
