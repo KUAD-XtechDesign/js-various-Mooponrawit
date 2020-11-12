@@ -19,13 +19,13 @@ img{
 }
 
 h1{
-  color: #ffffff;
+  color: #000000;
 }
 
 header{
   position: fixed;
   width: 100%;
-  background-color: rgb(73, 73, 73);
+  background-color: rgb(180, 139, 219);
   padding: 20px;
   display: flex;
   align-items: center;
@@ -36,13 +36,13 @@ header{
 footer{
   position: fixed;
   width: 100%;
-  background-color: rgb(73, 73, 73);
+  background-color: rgb(180, 139, 219);
   bottom:0;
   padding: 15px;
   text-align: right;
-  font-size: 25px;
+  font-size: 18px;
   z-index: 100;
-  color: #ffffff;
+  color: #000000;
 }
 
 header h1{
@@ -62,68 +62,24 @@ header ul li{
   margin-left: 20px;
 }
 
-#contents{
-  overflow: hidden;
+.container {
+  margin: 0 auto;
+  padding: 300px;
+  width: 100%;
+  color: #333;
+  background: #6f32ff;
 }
 
-#back{
-  background-image: url(../images/spaceback.png);
-  background-size: cover;
-  background-position: center 100px;
-  top: 0;
-  top:90%;
-  transition: 4s all;
+.slick-slide {
+  text-align: center;
+  color: #ae8bff;
+  background: white;
 }
 
-#back.anime{
-  top: 0%;
-}
-
-#person{
-  position: absolute;
-  top:200px;
-  right: -100px;
-  width: 100px;
-  transition: 0.6s all;
-}
-
-#person.anime{
-  right: 10px;
-}
-
-
-#car{
-  position: absolute;
-  bottom:100px;
-  max-width: 40%;
-  left: -250px;
-  width: 250px;
-  transition: 0.6s all;
-}
-
-#car.anime{
-  left: 0px;
-}
-
-#food{
-  width: 50%;
-  bottom: 10%;
-  margin-left: -25%;
-  left: 50%;
-  position: absolute;
-  opacity: 0;
-}
-
-
-#food.anime {
-  /* cssライブラリanimate.cssを利用 */
-  animation: zoomInDown;
-  animation-duration: 1s; 
-  opacity: 1;
-}
 
 
 #intro{
+  text-align: center;
   position: fixed;
   display: flex;
   z-index: 101;
@@ -132,7 +88,7 @@ header ul li{
   height: 100%;
   color: rgb(255, 255, 255);
   font-family: serif;
-  font-size: 20px;
+  font-size: 10px;
   align-items: center;
   justify-content: center;
   top: 0;
