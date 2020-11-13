@@ -21,7 +21,7 @@ img{
 header{
   position: fixed;
   width: 100%;
-  background-color: #fff;
+  background-color: rgb(255, 223, 174);
   padding: 20px;
   display: flex;
   align-items: center;
